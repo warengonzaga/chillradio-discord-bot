@@ -1,7 +1,7 @@
 # ChillRadio Discord Bot [![Developed by Waren Gonzaga](https://img.shields.io/badge/Developed%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=for-the-badge)](https://facebook.com/warengonzagaofficial)
 
 <!-- [![GitHub Version](https://img.shields.io/github/release/warengonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot)-->
-[![Github Star](https://img.shields.io/github/stars/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Github Fork](https://img.shields.io/github/forks/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![License](https://img.shields.io/github/license/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Powered By](https://img.shields.io/badge/Powered%20By-NodeJS-green.svg?style=for-the-badge)](https://nodejs.org)
+[![Discord](https://img.shields.io/badge/Add%20to%20Discord-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white)](https://warengonza.ga/chillradio-discord-bot-invite) [![Github Star](https://img.shields.io/github/stars/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Github Fork](https://img.shields.io/github/forks/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![License](https://img.shields.io/github/license/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Powered By](https://img.shields.io/badge/Powered%20By-NodeJS-green.svg?style=for-the-badge)](https://nodejs.org)
 
 ![Github Banner](.github/img/chillradio-discord-bot-github-banner.jpg)
 
@@ -9,7 +9,7 @@
 
 ## Usage
 
-Make sure you are connected to any voice channel to start listening to the internet radio. Use the available commands below to control the discord bot.
+[Add this bot](https://warengonza.ga/chillradio-discord-bot-invite) to your Discord server. Make sure you are connected to any voice channel to start listening to the internet radio. Use the available commands below to control the discord bot.
 
 ## Bot Commands
 
