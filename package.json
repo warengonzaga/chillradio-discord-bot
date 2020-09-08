@@ -1,6 +1,6 @@
 {
   "name": "chillradio-discord-bot",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
   "description": "ChillRadio official discord bot for community servers",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,9 @@
     "radio",
     "internet",
     "discord",
-    "bot"
+    "bot",
+    "waren",
+    "gonzaga"
   ],
   "author": "Waren Gonzaga",
   "license": "GPL-3.0",
