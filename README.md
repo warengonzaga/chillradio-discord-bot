@@ -1,8 +1,15 @@
 # ChillRadio Discord Bot [![Developed by Waren Gonzaga](https://img.shields.io/badge/Developed%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=for-the-badge)](https://facebook.com/warengonzagaofficial)
 
-[![GitHub Version](https://img.shields.io/github/release/warengonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Github Star](https://img.shields.io/github/stars/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Github Fork](https://img.shields.io/github/forks/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![License](https://img.shields.io/github/license/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Powered By](https://img.shields.io/badge/Powered%20By-NodeJS-green.svg?style=for-the-badge)](https://nodejs.org)
+<!-- [![GitHub Version](https://img.shields.io/github/release/warengonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot)-->
+[![Github Star](https://img.shields.io/github/stars/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Github Fork](https://img.shields.io/github/forks/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![License](https://img.shields.io/github/license/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Powered By](https://img.shields.io/badge/Powered%20By-NodeJS-green.svg?style=for-the-badge)](https://nodejs.org)
 
-[ChillRadio](https://chillradio.live) official discord bot for community servers.
+![Github Banner](.github/img/chillradio-discord-bot-github-banner.jpg)
+
+[ChillRadio](https://chillradio.live) official internet radio station discord bot for community servers. Philippine based internet radio station. Listen to 24/7 music streaming!
+
+## Usage
+
+Make sure you are connected to any voice channel to start listening to the internet radio. Use the available commands below to control the discord bot.
 
 ## Bot Commands
 
