@@ -4,6 +4,7 @@
   "description": "ChillRadio official discord bot for community servers",
   "main": "index.js",
   "scripts": {
+    "vercel-build": "node index.js",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
