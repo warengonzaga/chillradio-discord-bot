@@ -4,7 +4,8 @@
   "description": "ChillRadio official discord bot for community servers",
   "main": "index.js",
   "scripts": {
-    "build": "npm install && node index.js",
+    "build": "npm install && npm run start",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "repository": {
