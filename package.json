@@ -1,0 +1,37 @@
+{
+  "name": "chillradio-discord-bot",
+  "version": "1.0.0-alpha.1",
+  "description": "ChillRadio official discord bot for community servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarenGonzaga/chillradio-discord-bot.git"
+  },
+  "keywords": [
+    "chillradio",
+    "chill",
+    "radio",
+    "internet",
+    "discord",
+    "bot"
+  ],
+  "author": "Waren Gonzaga",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/WarenGonzaga/chillradio-discord-bot/issues"
+  },
+  "homepage": "https://github.com/WarenGonzaga/chillradio-discord-bot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.3.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
