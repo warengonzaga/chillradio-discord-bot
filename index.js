@@ -2,8 +2,6 @@ const Discord   = require('discord.js');
 const {prefix}  = require('./config.json');
 const client    = new Discord.Client();
 
-require('dotenv').config();
-
 // credentials
 const token     = process.env.TOKEN;
 const livefeed  = process.env.LIVE_FEED;
