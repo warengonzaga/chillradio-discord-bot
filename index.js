@@ -1,9 +1,12 @@
 const Discord   = require('discord.js');
 const {prefix}  = require('./config.json');
+const client    = new Discord.Client();
+
+require('dotenv').config();
+
+// credentials
 const token     = process.env.TOKEN;
 const livefeed  = process.env.LIVE_FEED;
-
-const client = new Discord.Client();
 
 // bot connection status
 client.once('ready', () => {
@@ -24,7 +27,10 @@ client.on('message', async msg => {
         msg.reply("hey there, wanna hear some internet radio music?");
     } else if (msg.content.startsWith(`${prefix}tunein`)) {
         tuneIn(msg);
-        return;
+        return msg.reply("tunning in, please wait...");
+    } else if (msg.content.startsWith(`${prefix}turnoff`)) {
+        tuneOff(msg);
+        return msg.reply("sorry I'm sad to see you go...");
     } else {
         msg.reply("hey that's a wrong command!");
     }
@@ -47,19 +53,27 @@ async function tuneIn(msg) {
     try {
         var connection = await voiceChannel.join();
         playmusic();
+        return msg.reply("you're now listening to live broadcast... enjoy!");
     } catch (err) {
         console.log(err);
         return msg.channel.send(err);
     }
 }
 
-// tunnig in
+// play music
 function playmusic() {
     const broadcast = client.voice.createBroadcast();
     broadcast.play(`${livefeed}`, { volume: 1 });
     for (const connection of client.voice.connections.values()) {
         connection.play(broadcast);
     }
+}
+
+// turn off music
+function tuneOff(msg) {
+    const voiceChannel = msg.member.voice.channel;
+    const connection = msg.guild.me.voiceChannel;
+    voiceChannel.leave(connection);
 }
 
 // discord authentication

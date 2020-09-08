@@ -1,6 +1,6 @@
 {
   "name": "chillradio-discord-bot",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0-rc.3",
   "description": "ChillRadio official discord bot for community servers",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,7 @@
     "ffmpeg-static": "^4.2.7"
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "nodemon": "^2.0.4"
   }
 }

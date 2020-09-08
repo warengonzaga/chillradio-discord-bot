@@ -6,7 +6,12 @@
 
 ## Bot Commands
 
-...
+Default Prefix: ~
+
+| Bot Command | Description |
+|---------|-------------|
+|~tunein  | Play live broadcast |
+|~turnoff | Stop live broadcast |
 
 ## Contributing
 
@@ -20,6 +25,7 @@ If you're facing a problem in using ChillRadio Discord Bot please let me know by
 
 * Add more commands
 * Add more features
+* Add invite bot link
 
 ## Community
 
@@ -33,7 +39,7 @@ Exclusive access to Philippine Pop Community
 
 ## Donate or Support
 
-If you love this collection please consider to donate or support the maintainer.
+If you love this free internet radio for community discord server please consider to donate or support the developer to cover development and server expenses.
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge)](https://paypal.me/warengonzagaofficial) [![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange.svg?style=for-the-badge)](https://buymeacoff.ee/warengonzaga)
 
