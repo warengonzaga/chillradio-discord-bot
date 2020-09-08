@@ -37,14 +37,10 @@ async function tuneIn(msg) {
     // permission
     const voiceChannel = msg.member.voice.channel;
     if (!voiceChannel)
-        return msg.reply(
-        "You need to be in a voice channel to play music!"
-        );
+        return msg.reply("You need to be in a voice channel to play music!");
     const permissions = voiceChannel.permissionsFor(msg.client.user);
     if (!permissions.has("CONNECT") || !permissions.has("SPEAK")) {
-        return msg.reply(
-        "I need the permissions to join and speak in your voice channel!"
-        );
+        return msg.reply("I need the permissions to join and speak in your voice channel!");
     }
 
     // connect to voice channel
