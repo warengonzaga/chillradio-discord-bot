@@ -1,0 +1,17 @@
+{
+    "bot_info": {
+        "bot_name": "ChillRadio"
+    },
+    "bot_messages": {
+        "hi_response":"Hey there, wanna hear some internet radio music?",
+        "hello_response":"Alright, let's listen to ChillRadio!",
+        "tuning_in":"Radio tuning in, please wait...",
+        "turning_off":"Radio turning off...",
+        "err_command":"Sorry, wrong command!"
+    },
+    "system_messages": {
+        "online_status":"is online!",
+        "reconnecting_status":"is trying to reconnect...",
+        "disconect_status":"is disconnected!"
+    }
+}

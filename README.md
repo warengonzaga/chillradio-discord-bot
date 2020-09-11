@@ -61,6 +61,7 @@ If you're facing a problem in using ChillRadio Discord Bot please let me know by
 * Better error handling
 * Discord bot website
 * Discord server for support
+* Code refactoring
 * More... (have suggestions? let me know!)
 
 ## Community

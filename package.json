@@ -1,11 +1,11 @@
 {
   "name": "chillradio-discord-bot",
-  "version": "1.0.0-rc.3",
+  "version": "1.0.0-alpha.1",
   "description": "ChillRadio official discord bot for community servers",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
   "repository": {
     "type": "git",
