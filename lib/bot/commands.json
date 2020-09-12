@@ -2,7 +2,13 @@
     "hi":"hi",
     "hello":"hello",
     "tunein":"tunein",
+    "tunein_alias":"in",
     "turnoff":"turnoff",
+    "turnoff_alias":"off",
     "help":"help",
-    "info":"info"
+    "help_alias":"h",
+    "request":"request",
+    "request_alias":"req",
+    "info":"info",
+    "info_alias":"i"
 }

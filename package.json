@@ -1,7 +1,7 @@
 {
   "name": "chillradio-discord-bot",
-  "version": "1.0.0-alpha.1",
-  "description": "ChillRadio official discord bot for community servers",
+  "version": "1.0.0",
+  "description": "ChillRadio official internet radio station discord bot for community servers. Philippine based internet radio station. Listen to 24/7 music streaming!",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
@@ -22,6 +22,8 @@
     "gonzaga"
   ],
   "author": "Waren Gonzaga",
+  "facebook": "https://facebook.com/warengonzagaofficial",
+  "twitter": "https://twitter.com/warengonzaga",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/WarenGonzaga/chillradio-discord-bot/issues"

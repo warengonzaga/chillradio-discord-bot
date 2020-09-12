@@ -8,25 +8,29 @@ const bot_commands  = require('./lib/bot/commands.json');
 const bot_colors    = require('./lib/bot/colors.json');
 const bot_info      = require('./package.json');
 
-// dev purposes
-require('dotenv').config();
-
 // credentials
-const token     = process.env.TOKEN;
-const livefeed  = process.env.LIVE_FEED;
+const token                 = process.env.TOKEN;
+const livefeed              = process.env.LIVE_FEED;
+const request_channel_id    = process.env.REQ_CHANNEL_ID;
 
 bot.on('message', async message => {
     let prefix = bot_config.prefix;
-    let msgArray = message.content.split(' ');
-    let args = msgArray.slice[1];
 
     if(message.author.bot || message.channel.type === 'dm' || !message.content.startsWith(`${prefix}`)) return;
 
-    const hi_cmd = `${prefix}${bot_commands.hi}`;
-    const hello_cmd = `${prefix}${bot_commands.hello}`;
-    const tunein_cmd = `${prefix}${bot_commands.tunein}`;
-    const turnoff_cmd = `${prefix}${bot_commands.turnoff}`;
-    const help_cmd = `${prefix}${bot_commands.help}`;
+    // commands
+    const   hi_cmd      = `${prefix}${bot_commands.hi}`,
+            hello_cmd   = `${prefix}${bot_commands.hello}`,
+            tunein_cmd  = `${prefix}${bot_commands.tunein}`,
+            turnoff_cmd = `${prefix}${bot_commands.turnoff}`,
+            help_cmd    = `${prefix}${bot_commands.help}`,
+            request_cmd = `${prefix}${bot_commands.request}`,
+
+            // alias command
+            in_cmd      = `${prefix}${bot_commands.tunein_alias}`,
+            off_cmd     = `${prefix}${bot_commands.turnoff_alias}`,
+            h_cmd       = `${prefix}${bot_commands.help_alias}`,
+            req_cmd     = `${prefix}${bot_commands.request_alias}`;
 
     // hi command
     if(message.content.startsWith(hi_cmd)) {
@@ -43,7 +47,7 @@ bot.on('message', async message => {
         message.channel.send({embed: sEmbed});
         console.log('Someone hello to the bot...');
     // tunein command
-    } else if(message.content.startsWith(tunein_cmd)) {
+    } else if(message.content.startsWith(tunein_cmd) || message.content.startsWith(in_cmd)) {
         let sEmbed = new Discord.MessageEmbed()
             .setColor(bot_colors.yellow)
             .setDescription(`${bot_lang.bot_messages.tuning_in}`);
@@ -51,46 +55,90 @@ bot.on('message', async message => {
         tuneIn(message);
         console.log('Someone tune in to the bot...');
     // turnoff command
-    } else if(message.content.startsWith(turnoff_cmd)) {
+    } else if(message.content.startsWith(turnoff_cmd) || message.content.startsWith(off_cmd)) {
         let sEmbed = new Discord.MessageEmbed()
             .setColor(bot_colors.yellow)
             .setDescription(`${bot_lang.bot_messages.turning_off}`);
         message.channel.send({embed: sEmbed});
         turnOff(message);
         console.log('Someone turn off to the bot...');
-    } else if(message.content.startsWith(help_cmd)) {
+    } else if(message.content.startsWith(help_cmd) || message.content.startsWith(h_cmd)) {
         let sEmbed = new Discord.MessageEmbed()
             .setColor(bot_colors.blue)
             .setTitle(bot.user.username+' Commands')
             .setThumbnail('https://i.imgur.com/ABBUNkI.png')
-            .setDescription('This is the list of all available commands. The command format would be ``prefix<command>``. Current bot prefix is '+`${prefix}`)
+            .setDescription(bot_info.description)
             .addFields(
                 {
-                    name: 'Greetings',
-                    value: `${bot_commands.hi}, ${bot_commands.hello}`,
-                    inline: true
+                    name: 'Bot Commands',
+                    value: 'A full list of commands is available [here](https://github.com/warengonzaga/chillradio-discord-bot).',
+                    inline: false
                 },
                 {
-                    name:'Listen to Radio', 
-                    value: `${bot_commands.tunein}`,
-                    inline: true
-                },
-                {
-                    name: 'Stop the Radio',
-                    value: `${bot_commands.turnoff}`,
-                    inline: true
+                    name: 'Bot Invite',
+                    value: 'Invite this bot to your discord server by using this [invite link](https://chillradio.live/discordbot).',
+                    inline: false
                 },
                 {
                     name: 'Official Website',
-                    value: 'https://chillradio.live'
+                    value: 'https://chillradio.live',
+                    inline: true
                 },
                 {
                     name: 'Github Repo',
-                    value: 'https://warengonza.ga/chillradio-repo'
+                    value: 'https://warengonza.ga/chillradio-repo',
+                    inline: true
                 }
             )
             .setFooter(`Developed and Maintained by ${bot_info.author} | v${bot_info.version}`, 'https://i.imgur.com/QLWADZx.jpg');
         message.channel.send({embed: sEmbed});
+    } else if(message.content.startsWith(request_cmd) || message.content.startsWith(req_cmd)) {
+        let msgArray = message.content.split('| ');
+        let songTitle = msgArray[0].split(' ').splice(1).join(' ');
+        let songArtist = msgArray[1];
+        let greetings = msgArray[2];
+        let listener = message.author.username;
+
+        if(!songTitle) {
+            let sEmbed = new Discord.MessageEmbed()
+                .setColor(bot_colors.red)
+                .setDescription('Ops, song title is required...\n\n**Format**: ``song | artist | greetings``')
+                .setFooter('Need help? Type '+`${prefix}${bot_commands.help}`);
+            
+            message.channel.send({embed: sEmbed});
+        }
+
+        let sEmbed = new Discord.MessageEmbed()
+        .setColor(bot_colors.green)
+        .setTitle(bot.user.username+' | Song Request Receipt')
+        .setDescription('Thank you for requesting...')
+        .addFields(
+            {
+                name: 'Song Title',
+                value: `${songTitle}`,
+                inline: true
+            },
+            {
+                name: 'Artist',
+                value: `${!songArtist ? 'N/A' : songArtist}`,
+                inline: true
+            },
+            {
+                name: 'From Listener',
+                value: `${listener}`,
+                inline: true
+            },
+            {
+                name: 'Greetings',
+                value: `${!greetings ? 'N/A' : greetings}`,
+                inline: false
+            }
+        )
+        .setFooter(`Developed and Maintained by ${bot_info.author} | v${bot_info.version}`, 'https://i.imgur.com/QLWADZx.jpg');
+
+        sendRequest(songTitle, songArtist, greetings, listener);
+        message.channel.send({embed: sEmbed});
+
     } else {
         let sEmbed = new Discord.MessageEmbed()
             .setColor(bot_colors.red)
@@ -120,7 +168,10 @@ async function tuneIn(message) {
     }
 
     try {
-        voiceChannel.join();
+        var connect = voiceChannel.join();
+            connect.then(connection => {
+                connection.voice.setSelfDeaf(true);
+            });
 
         const broadcast = bot.voice.createBroadcast();
         broadcast.play(`${livefeed}`, { volume: 1 });
@@ -160,9 +211,51 @@ async function turnOff(message) {
     return message.channel.send({embed: sEmbed});
 }
 
+async function sendRequest(songTitle, songArtist, greetings, listener) {
+    const requests_channel = bot.channels.cache.get(request_channel_id);
+
+    let sEmbed = new Discord.MessageEmbed()
+        .setColor(bot_colors.yellow)
+        .setTitle(bot.user.username+' | Song Request')
+        .addFields(
+            {
+                name: 'Song Title',
+                value: `${songTitle}`,
+                inline: true
+            },
+            {
+                name: 'Artist',
+                value: `${!songArtist ? 'N/A' : songArtist}`,
+                inline: true
+            },
+            {
+                name: 'From Listener',
+                value: `${listener}`,
+                inline: true
+            },
+            {
+                name: 'Greetings',
+                value: `${!greetings ? 'N/A' : greetings}`,
+                inline: false
+            }
+        )
+        .setFooter(`Developed and Maintained by ${bot_info.author} | v${bot_info.version}`, 'https://i.imgur.com/QLWADZx.jpg');
+    requests_channel.send({embed: sEmbed});
+}
+
 // online status
 bot.on('ready', async () => {
     bot.user.setActivity(`${bot_config.prefix}${bot_commands.help}`, {type: "LISTENING"});
+    const logs_channel = bot.channels.cache.get('754119514307690506');
+    
+    let sEmbed = new Discord.MessageEmbed()
+        .setTitle(bot.user.username+' Status')
+        .setThumbnail('https://i.imgur.com/ABBUNkI.png')
+        .setColor(bot_colors.green)
+        .setDescription(`Discord Bot ${bot_lang.system_messages.online_status}`)
+        .setFooter(`Developed and Maintained by ${bot_info.author} | v${bot_info.version}`, 'https://i.imgur.com/QLWADZx.jpg');
+    logs_channel.send({embed: sEmbed});
+    
     console.log(`${bot.user.username} Discord Bot ${bot_lang.system_messages.online_status}`);
     console.log(`Build v${bot_info.version}\nDeveloped by ${bot_info.author}\nRunning...`);
 });
