@@ -15,23 +15,15 @@
 
 ## Bot Commands
 
-Default Prefix:
+The default bot command is tilde (__``~``__).
 
-```text
-~
-```
-
-Command Format:
-
-```text
-~<command> // e.g. ~hi
-```
-
-| Bot Command | Description |
-|---|---|
-| ~hi | Greetings |
-| ~tunein | Play live broadcast |
-| ~turnoff | Stop live broadcast |
+| Commands | Alias | Arguments | Description | Example
+| --- | ---| --- | --- | --- |
+| hi | none | none | Greetings | ~hi |
+| hello | none | none | Greetings | ~hello |
+| tunein | in | none | Listen to the radio | ~tunein |
+| turnoff | off | none | Stop the radio | ~turnoff |
+| request | req | song \| artist \| greetings | Request a song to the DJ | ~request fresh adventure \| laboum \| greetings to all |
 
 ## Discord Permissions
 
