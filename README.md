@@ -1,6 +1,6 @@
 # ChillRadio Discord Bot [![Developed by Waren Gonzaga](https://img.shields.io/badge/Developed%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=for-the-badge)](https://facebook.com/warengonzagaofficial)
 
-[![Discord](https://img.shields.io/badge/Add%20to%20Discord-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white)](https://chillradio.live/discordbot) [![GitHub Version](https://img.shields.io/github/release/warengonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Github Star](https://img.shields.io/github/stars/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Github Fork](https://img.shields.io/github/forks/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![License](https://img.shields.io/github/license/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Powered By](https://img.shields.io/badge/Powered%20By-NodeJS-green.svg?style=for-the-badge)](https://nodejs.org)
+[![Discord](https://img.shields.io/badge/Add%20to%20Discord-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white)](https://chillradio.live/discordbot) [![GitHub Version](https://img.shields.io/github/release/warengonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Github Star](https://img.shields.io/github/stars/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![License](https://img.shields.io/github/license/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Powered By](https://img.shields.io/badge/Powered%20By-NodeJS-green.svg?style=for-the-badge)](https://nodejs.org)
 
 ![Github Banner](.github/img/chillradio-discord-bot-github-banner.jpg)
 
@@ -57,13 +57,13 @@ If you're facing a problem in using ChillRadio Discord Bot please let me know by
 
 ## Community
 
+Looking to get in touch with me? Well, your first step is to join to my community.
+
+[![ChillRadio](https://discordapp.com/api/guilds/753246721282146325/widget.png?style=banner3)](https://discord.gg/wCSVMU) [![Philippine Pop](https://discordapp.com/api/guilds/696278059719983114/widget.png?style=banner3)](https://discord.io/ppop-official)
+
 Wanna see other projects I made? Join today!
 
-[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://discord.io/warengonzaga)
-
-Exclusive access to Philippine Pop Community
-
-[![Philippine Pop](https://discordapp.com/api/guilds/696278059719983114/widget.png?style=banner2)](https://discord.io/ppop-official)
+[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://discord.io/warengonzaga) [![Tracker CLI](https://discordapp.com/api/guilds/694612151444439081/widget.png?style=banner2)](https://discord.io/warengonzaga)
 
 ## Donate or Support
 
