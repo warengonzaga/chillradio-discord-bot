@@ -4,9 +4,14 @@
 
 ![Github Banner](.github/img/chillradio-discord-bot-github-banner.jpg)
 
-[ChillRadio](https://chillradio.live) official internet radio station discord bot for community servers. Philippine based internet radio station. Listen to 24/7 music streaming!
+[ChillRadio](https://chillradio.live) official internet radio station discord bot for community servers. Philippine based internet radio station. Listen to 24/7 music streaming! 
 
 [![ChillRadio Discord Bot](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=254850&theme=dark)](https://www.producthunt.com/posts/chillradio-discord-bot?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chillradio-discord-bot)
+
+## Upvote
+
+* ``top.gg`` (pending)
+* [discordbotlist.com](https://discord.ly/chillradio)
 
 ## Usage
 
@@ -18,11 +23,11 @@ The default bot command is tilde (__``~``__).
 
 | Commands | Alias | Arguments | Description | Example
 | --- | ---| --- | --- | --- |
-| hi | none | none | Greetings | ~hi |
-| hello | none | none | Greetings | ~hello |
-| tunein | in | none | Listen to the radio | ~tunein |
-| turnoff | off | none | Stop the radio | ~turnoff |
-| request | req | song \| artist \| greetings | Request a song to the DJ | ~request fresh adventure \| laboum \| greetings to all |
+| ``hi`` | none | none | Greetings | ``~hi`` |
+| ``hello`` | none | none | Greetings | ``~hello`` |
+| ``tunein`` | ``~in`` | none | Listen to the radio | ``~tunein`` |
+| ``~turnoff`` | ``~off`` | none | Stop the radio | ``~turnoff`` |
+| ``~request`` | ``req`` | ``song`` \| ``artist`` \| ``greetings`` | Request a song to the DJ | ``~request between us`` \| ``laboum`` \| ``requesting for song`` |
 
 ## Discord Permissions
 
