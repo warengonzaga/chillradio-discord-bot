@@ -4,11 +4,11 @@
 
 ![Github Banner](.github/img/chillradio-discord-bot-github-banner.jpg)
 
-[ChillRadio](https://chillradio.live) official internet radio station discord bot for community servers. Philippine based internet radio station. Listen to 24/7 music streaming! 
+[ChillRadio](https://chillradio.live) official internet radio station discord bot for community servers. Philippine based internet radio station. Listen to 24/7 music streaming!
 
 [![ChillRadio Discord Bot](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=254850&theme=dark)](https://www.producthunt.com/posts/chillradio-discord-bot?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-chillradio-discord-bot)
 
-## Upvote
+## Bot Lists
 
 * ``top.gg`` (pending)
 * [discordbotlist.com](https://discord.ly/chillradio)
@@ -64,11 +64,11 @@ If you're facing a problem in using ChillRadio Discord Bot please let me know by
 
 Looking to get in touch with me? Well, your first step is to join to my community.
 
-[![ChillRadio](https://discordapp.com/api/guilds/753246721282146325/widget.png?style=banner3)](https://discord.gg/wCSVMU) [![Philippine Pop](https://discordapp.com/api/guilds/696278059719983114/widget.png?style=banner3)](https://discord.io/ppop-official)
+[![ChillRadio](https://discordapp.com/api/guilds/753246721282146325/widget.png?style=banner3)](https://discord.gg/8gvJqRx) [![Philippine Pop](https://discordapp.com/api/guilds/696278059719983114/widget.png?style=banner3)](https://discord.io/ppop-official)
 
 Wanna see other projects I made? Join today!
 
-[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://discord.io/warengonzaga) [![Tracker CLI](https://discordapp.com/api/guilds/694612151444439081/widget.png?style=banner2)](https://discord.io/warengonzaga)
+[![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://discord.io/warengonzaga) [![Tracker CLI](https://discordapp.com/api/guilds/694612151444439081/widget.png?style=banner2)](https://discord.io/trackercli)
 
 ## Donate or Support
 
