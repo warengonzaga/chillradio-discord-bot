@@ -1,5 +1,5 @@
 const Discord = require('discord.js-light');
-const bot     = new Discord.Client({cacheChannels: true});
+const bot     = new Discord.Client({cacheChannels: true,cacheRoles: true});
 
 // bot Libraries
 const bot_lang      = require('./lib/lang/en-us.json');

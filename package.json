@@ -1,6 +1,6 @@
 {
   "name": "chillradio-discord-bot",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "ChillRadio official internet radio station discord bot for community servers. Philippine based internet radio station. Listen to 24/7 music streaming!",
   "main": "bot.js",
   "scripts": {
@@ -34,6 +34,7 @@
     "bufferutil": "^4.0.1",
     "discord.js-light": "^3.2.9",
     "erlpack": "github:discordapp/erlpack",
+    "ffmpeg-static": "^4.2.7",
     "utf-8-validate": "^5.0.2",
     "zlib-sync": "^0.1.7"
   },
