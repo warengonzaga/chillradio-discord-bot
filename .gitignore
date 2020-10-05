@@ -1,4 +1,5 @@
 node_modules
 application.yml
+*.log
 *.txt
 .env
