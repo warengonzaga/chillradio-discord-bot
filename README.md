@@ -1,6 +1,6 @@
-# ChillRadio Discord Bot [![Developed by Waren Gonzaga](https://img.shields.io/badge/Developed%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=for-the-badge)](https://facebook.com/warengonzagaofficial)
+# ChillRadio Discord Bot [![Developed by Waren Gonzaga](https://img.shields.io/badge/Developed%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=for-the-badge)](https://facebook.com/warengonzagaofficial) ![Discontinued](https://img.shields.io/badge/Discontinued-%23f44336.svg?&style=for-the-badge&logoColor=white)
 
-[![Discord](https://img.shields.io/badge/Add%20to%20Discord-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white)](https://chillradio.live/discordbot) [![GitHub Version](https://img.shields.io/github/release/warengonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Github Star](https://img.shields.io/github/stars/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![License](https://img.shields.io/github/license/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Powered By](https://img.shields.io/badge/Powered%20By-NodeJS-green.svg?style=for-the-badge)](https://nodejs.org)
+[![GitHub Version](https://img.shields.io/github/release/warengonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Github Star](https://img.shields.io/github/stars/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![License](https://img.shields.io/github/license/WarenGonzaga/chillradio-discord-bot.svg?style=for-the-badge)](https://github.com/WarenGonzaga/chillradio-discord-bot) [![Powered By](https://img.shields.io/badge/Powered%20By-NodeJS-green.svg?style=for-the-badge)](https://nodejs.org)
 
 ![Github Banner](.github/img/chillradio-discord-bot-github-banner.jpg)
 
@@ -10,7 +10,7 @@
 
 ## Bot Lists
 
-* ``top.gg`` (pending)
+* [top.gg](https://top.gg/bot/752650123301093406)
 * [discordbotlist.com](https://discord.ly/chillradio)
 
 ## Usage
@@ -44,29 +44,15 @@ For more information please visit Discord [permission reference](https://discord
 
 ## Contributing
 
-Contributions are welcome, create a pull request to this repo and I will review your code. Please consider to submit your pull request to the ```dev``` branch. Thank you!
+The project will not accept any PR since this is officially discontinued open source project due to financial issues of the ChillRadio management. I can't afford the server expenses.
 
 ## Issues
 
-If you're facing a problem in using ChillRadio Discord Bot please let me know by creating an issue in this github repository. I'm happy to help you! Don't forget to provide some screenshot or error logs of it!
-
-## To Do
-
-* Add more commands
-* Add more features
-* Better error handling
-* Discord bot website
-* Discord server for support
-* Code refactoring
-* More... (have suggestions? let me know!)
+If you're facing a problem in using ChillRadio Discord Bot please let me know by creating an issue in this github repository. However I would recommend to stop using the code in this repository since it will be outdated soon and I will not able to help you as I discontinue working on this.
 
 ## Community
 
 Looking to get in touch with me? Well, your first step is to join to my community.
-
-[![ChillRadio](https://discordapp.com/api/guilds/753246721282146325/widget.png?style=banner3)](https://discord.gg/8gvJqRx) [![Philippine Pop](https://discordapp.com/api/guilds/696278059719983114/widget.png?style=banner3)](https://discord.io/ppop-official)
-
-Wanna see other projects I made? Join today!
 
 [![Community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://discord.io/warengonzaga) [![Tracker CLI](https://discordapp.com/api/guilds/694612151444439081/widget.png?style=banner2)](https://discord.io/trackercli)
 
@@ -82,13 +68,10 @@ ChillRadio Discord Bot is licensed under GNU General Public License v3 - <https:
 
 ## Author
 
-ChillRadio Discord Bot is Developed and Maintained by **Waren Gonzaga**
+ChillRadio Discord Bot is Developed and Maintained by **[Waren Gonzaga](https://github.com/warengonzaga)**
 
-* **Facebook:** <https://facebook.com/warengonzagaofficial>
-* **Twitter:** <https://twitter.com/warengonzaga>
-* **Website:** <https://warengonzaga.com>
-* **Email:** dev(at)warengonzaga[.]com
+[![Facebook](https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/warengonzagaofficial) [![Twitter](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/warengonzaga) [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/warengonzagaofficial) [![YouTube](https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/warengonzaga) [![DEV](https://img.shields.io/badge/DEV-%23000000.svg?&style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/warengonzaga)
 
 ---
 
-:computer: with :heart: by **Waren Gonzaga** with **YHWH** :pray:
+:computer: Made with :heart: and :coffee: by Waren Gonzaga with **YHWH** :pray:
